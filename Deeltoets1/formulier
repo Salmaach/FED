@@ -39,31 +39,31 @@
     <fieldset>
       
     <legend>Contactgegevens</legend>
-
+   
       <label for="naam">Naam</label>
-      <input type="text" id="naam" ><br>
+      <input type="text" id="naam" >
 
       <label for="bedrijf">Bedrijf</label>
-      <input type="text" id="bedrijf" ><br>
+      <input type="text" id="bedrijf" >
 
       <label for="adres">Adres</label>
-      <input type="text" id="adres" placeholder="straatnaam 12" > <br>
+      <input type="text" id="adres" placeholder="straatnaam 12" > 
 
       <label for="postcode">Postcode</label>
-      <input id="postcode" type="text" placeholder="1234AB"><br>
+      <input id="postcode" type="text" placeholder="1234AB">
 
       <label for="plaats">Plaats</label>
-      <input type="text" id="plaats"> <br>
+      <input type="text" id="plaats"> 
 
       <label for="telefoonnummer">Telefoon</label>
-      <input type="tel" id="telefoonnummer" > <br>
+      <input type="tel" id="telefoonnummer" >
 
       <label for="email">E-mail</label>
-      <input type="email" id="email" ><br>
+      <input type="email" id="email" >
 
-      <label>Ik wil mij aanmelden</label><br><br>
+      <label>Ik wil mij aanmelden</label>
       <input type="radio" name="sex" value="project">Voor een project
-      <br><input type="radio" name="sex" value="stage">Als stagebedrijf
+      <input type="radio" name="sex" value="stage">Als stagebedrijf
       
     </fieldset>
   </form>
@@ -71,10 +71,10 @@
   <form>
     <fieldset>
       
-    <legend>Voor een project</legend><br>
-
+    <legend>Voor een project</legend>
+<aside>
       <label for="titel">Titel</label>
-      <input type="text" id="titel" ><br>
+      <input type="text" id="titel" >
 
       <label for="opdracht">Opdracht omschrijving</label>
       <textarea id="opdracht" rows="5" cols="20"></textarea>
@@ -85,18 +85,18 @@
       <label for="doelstelling">Doelstelling/intentie van het project</label>
       <textarea id="doelstelling" rows="5" cols="20"></textarea>
 
-      <label>Looptijd</label><br><br>
-      <input type="text" id="looptijd"><br>
+      <label>Looptijd</label>
+      <input type="text" id="looptijd">
 
       <label for="deadline">Deadline</label>
-      <input id="deadline" type="month" ><br>
+      <input id="deadline" type="month" >
 
-      <label>Geschikt voor</label><br><br>
-      <input type="checkbox" name="tweedejaars" >Eerstejaars studenten<br>
-      <input type="checkbox" name="afstudeer" >Tweedejaars studenten<br>
-      <input type="checkbox" name="onbekend" >Derdejaars studenten<br>
-      <input type="checkbox" name="tweedejaars" >Afstudeer studenten<br>
-      <input type="checkbox" name="afstudeer" >Onbekend<br>
+      <label>Geschikt voor</label>
+      <input type="checkbox" name="tweedejaars" >Eerstejaars studenten
+      <input type="checkbox" name="afstudeer" >Tweedejaars studenten
+      <input type="checkbox" name="onbekend" >Derdejaars studenten
+      <input type="checkbox" name="tweedejaars" >Afstudeer studenten
+      <input type="checkbox" name="afstudeer" >Onbekend
 
     </fieldset>
   </form>
@@ -106,41 +106,40 @@
       
     <legend>Als stagebedrijf</legend>
 
-      <label>Geschikt voor</label><br><br>
-      <input type="checkbox" name="tweedejaars" >Tweedejaars studenten<br>
-      <input type="checkbox" name="afstudeer" >Afstudeer studenten<br>
-      <input type="checkbox" name="onbekend" >Onbekend<br><br>
+      <label>Geschikt voor</label>
+      <input type="checkbox" name="tweedejaars" >Tweedejaars studenten
+      <input type="checkbox" name="afstudeer" >Afstudeer studenten
+      <input type="checkbox" name="onbekend" >Onbekend
 
-      <label>Hoe lang is de stage?</label><br><br>
-      <input type="checkbox" name="10">10 weken<br>
-      <input type="checkbox" name="20">20 weken<br>
+      <label>Hoe lang is de stage?</label>
+      <input type="checkbox" name="10">10 weken
+      <input type="checkbox" name="20">20 weken
 
       <label>Beschrijving werkzaamheden</label>
       <textarea id="beschrijving" rows="5" cols="20"></textarea>
 
-      Beschrijving stagebedrijf<br>
+      Beschrijving stagebedrijf
 
       <label for="naam">Bedrijfsnaam</label>
-      <input type="text" id="bedrijfsnaam"><br>
+      <input type="text" id="bedrijfsnaam">
 
       <label for="adres">Adres</label>
-      <input type="text" id="bedrijfsadres" placeholder="straatnaam 12"><br>
+      <input type="text" id="bedrijfsadres" placeholder="straatnaam 12">
 
       <label for="postcode">Postcode</label>
-      <input type="text" id="bedrijfpostcode" placeholder="1234AB"><br>
+      <input type="text" id="bedrijfpostcode" placeholder="1234AB">
 
       <label for="plaats">Plaats</label>
-      <input type="text" id="bedrijfsplaats"><br>
+      <input type="text" id="bedrijfsplaats">
 
       <label for="sector">Sector</label>
-      <input type="text" id="sector"><br>
+      <input type="text" id="sector">
 
       <label for="corebusiness">Core business</label>
-      <input type="text" id="corebusiness"><br>
+      <input type="text" id="corebusiness">
 
     </fieldset>
   </form>
-</aside>
 
 </body>
 
